@@ -154,9 +154,9 @@ pyramidal_ca_max = np.max(pyramidal_ca,axis=2)
 
 
 
-del_eps22_cyc1 = grain_data['scan23'][:,17] - grain_data['scan21'][:,17]
-del_eps22_cyc2 = grain_data['scan25'][:,17] - grain_data['scan23'][:,17]
-del_eps22_cyc5 = grain_data['scan31'][:,17] - grain_data['scan25'][:,17]
+# del_eps22_cyc1 = grain_data['scan23'][:,17] - grain_data['scan21'][:,17]
+# del_eps22_cyc2 = grain_data['scan25'][:,17] - grain_data['scan23'][:,17]
+# del_eps22_cyc5 = grain_data['scan31'][:,17] - grain_data['scan25'][:,17]
 
 
 mis = np.zeros([ngrains,len(scanIDs)])
